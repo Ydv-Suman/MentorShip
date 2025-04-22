@@ -11,7 +11,7 @@ class LandingPage extends Component{
                 <div className="inline-flex flex-row space-x-4 text-xl">
                     <h1 className="text-5xl italic font-bold">Mentor<span className="text-red-600">Ship</span></h1>
                     <nav className="inline-flex flex-row space-x-4 text-xl items-center">
-                        <p className="cursor-pointer">Home</p>
+                        <p className="cursor-pointer underline ">Home</p>
                         <p className="cursor-pointer">Mentors</p>
                         <p className="cursor-pointer"><Link to="/about">About</Link></p>
 
@@ -19,7 +19,7 @@ class LandingPage extends Component{
 
                     </nav>
                     <nav className="absolute top-6 right-28 text-xl">
-                        <p className="cursor-pointer text-white hover:text-red-600 w-20 h-9 bg-blue-500 rounded-full flex items-center justify-center">Sign Up</p>
+                        <p className="cursor-pointer text-white hover:text-red-600 w-20 h-9 bg-blue-500 rounded-full flex items-center justify-center"><Link to="/login">Log In</Link></p>
                     </nav>
                     <nav className="absolute top-6 right-10 text-xl">
                         <p className="cursor-pointer text-white hover:text-cyan-500 w-20 h-9 bg-blue-500 rounded-full flex items-center justify-center">Register</p>
