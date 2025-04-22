@@ -1,5 +1,6 @@
 import { Component } from "react";
 import bg from "../assets/mentoship-bg.jpg"
+import { Link } from 'react-router-dom';
 
 
 class LandingPage extends Component{
@@ -12,7 +13,7 @@ class LandingPage extends Component{
                     <nav className="inline-flex flex-row space-x-4 text-xl items-center">
                         <p className="cursor-pointer">Home</p>
                         <p className="cursor-pointer">Mentors</p>
-                        <p className="cursor-pointer">About</p>
+                        <p className="cursor-pointer"><Link to="/about">About</Link></p>
 
 
 

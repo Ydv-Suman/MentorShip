@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from 'react-router-dom';
 import bg from "../assets/mentoship-bg.jpg";
 
 
@@ -10,7 +11,7 @@ class About extends Component{
                 <div className="inline-flex flex-row space-x-4 text-xl">
                     <h1 className="text-5xl italic font-bold">Mentor<span className="text-red-600">Ship</span></h1>
                     <nav className="inline-flex flex-row space-x-4 text-xl items-center">
-                    <p className="cursor-pointer">Home</p>
+                    <p className="cursor-pointer"><Link to="/">Home</Link></p>
 
                         <p className="cursor-pointer">Mentors</p>
                         <p className="cursor-pointer">About</p>
