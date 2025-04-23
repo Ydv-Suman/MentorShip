@@ -5,7 +5,10 @@ function NavBar(){
     return(
         <div className="bg-green-100">
             <div className="flex flex-row gap-10 items-center">
-                <h1 className="ml-3 font-bold text-5xl text-center">Mentor<span className=" text-blue-500">Ship</span></h1>
+                <Link to="/home">
+                    <h1 className="ml-3 font-bold text-5xl text-center">Mentor<span className=" text-blue-500">Ship</span></h1>
+                </Link>
+                
                 <nav className="flex flex-row gap-3 text-l text-center font-semibold">
                     <p className="cursor-pointer"><Link to="/home">Home</Link></p>
                     <p className="cursor-pointer"><Link to="/mentors">Mentors</Link></p>
