@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "Mastering React in 30 Days",
+      "author": "Alice Johnson",
+      "image": "https://images.unsplash.com/photo-1581276879432-15a67f2d6f86?auto=format&fit=crop&w=800&q=60",
+      "link": "https://dev.to/selbekk/master-react-in-30-days-5f1b"
+    },
+    {
+      "id": 2,
+      "title": "The Future of AI and Ethics",
+      "author": "David Kim",
+      "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=800&q=60",
+      "link": "https://towardsdatascience.com/ethics-in-ai-why-it-matters-and-what-we-can-do-3bdcebc87d7c"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Design Trends 2025",
+      "author": "Sara Dey",
+      "image": "https://images.unsplash.com/photo-1607082349610-d5d4f6d4c1d0?auto=format&fit=crop&w=800&q=60",
+      "link": "https://uxdesign.cc/ux-design-trends-to-watch-in-2025-d7c8f8a2b6ab"
+    },
+    {
+      "id": 4,
+      "title": "DevOps Pipeline Explained",
+      "author": "James Carter",
+      "image": "https://images.unsplash.com/photo-1633356127585-f893674e6b4a?auto=format&fit=crop&w=800&q=60",
+      "link": "https://www.atlassian.com/devops"
+    },
+    {
+        "id": 5,
+        "title": "Understanding JavaScript Closures",
+        "author": "Nina Davis",
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=60",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+      },
+      {
+        "id": 6,
+        "title": "The Power of Responsive Web Design",
+        "author": "Omar Farooq",
+        "image": "https://images.unsplash.com/photo-1581276879432-15a67f2d6f86?auto=format&fit=crop&w=800&q=60",
+        "link": "https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/"
+      },
+      {
+        "id": 7,
+        "title": "Getting Started with Git and GitHub",
+        "author": "Emily Chen",
+        "image": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?auto=format&fit=crop&w=800&q=60",
+        "link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
+      },
+      {
+        "id": 8,
+        "title": "Top 10 Python Libraries for Data Science",
+        "author": "Jason White",
+        "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=800&q=60",
+        "link": "https://towardsdatascience.com/top-10-python-libraries-for-data-science-9b1d65b3f84e"
+      }
+  ]
+  

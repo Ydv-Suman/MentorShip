@@ -37,6 +37,7 @@ function Feedback(){
               placeholder="Enter phone number"
               className="w-full mt-1 p-2 border border-gray-300 rounded"
               maxLength="10"
+              required
             />
           </p>
 
@@ -49,6 +50,7 @@ function Feedback(){
               rows={4}
               cols={38}
               className="w-full mt-1 p-2 border border-gray-300 rounded resize-none"
+              required
             ></textarea>
           </p>
 

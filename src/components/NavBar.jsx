@@ -9,6 +9,7 @@ function NavBar(){
                 <nav className="flex flex-row gap-3 text-l text-center font-semibold">
                     <p className="cursor-pointer"><Link to="/home">Home</Link></p>
                     <p className="cursor-pointer"><Link to="/mentors">Mentors</Link></p>
+                    <p className="cursor-pointer"><Link to="/blogs">Blogs</Link></p>
                     <p className="cursor-pointer"><Link to="/about">About</Link></p>
                     <p className="cursor-pointer"><Link to="/feedback">Feedback</Link></p>
                 </nav>

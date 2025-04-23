@@ -11,7 +11,7 @@ function LandingPage(){
 
             <div className="absolute top-[35%] left-[10%]">
                 <p className="font-semibold text-4xl font-serif">Find a mentor who guide <br/>you on your career growth</p>
-                <p>A mentor can help you set goal, develop skills, and naviate <br/> you professional journey</p>
+                <p>A mentor can help you set goal, develop skills, and navigate <br/> your professional journey</p>
                 <p>
                     <input
                         type="text"
@@ -21,16 +21,16 @@ function LandingPage(){
                     <button className="cursor-pointer bg-blue-300 font-semibold w-20 h-12 p-2 rounded-2xl text-center justify-center">Search</button>
                 </p>
 
-                <div className="flex flex-row gap-4 mt-[10%] ml-[10%]">
-                    <div className=" flex flex-col">
+                <div className="flex flex-row gap-5 mt-[10%] ml-[10%]">
+                    <div className=" flex flex-col text-center">
                         <p className="font-semibold text-xl">100K </p>
                         <p>Total Users </p>
                     </div>
-                    <div className=" flex flex-col">
-                        <p className="font-semibold text-xl">100K </p>
+                    <div className=" flex flex-col text-center ">
+                        <p className="font-semibold text-xl">1K </p>
                         <p>Mentors</p>
-                    </div><div className=" flex flex-col">
-                        <p className="font-semibold text-xl">100K </p>
+                    </div><div className=" flex flex-col text-center">
+                        <p className="font-semibold text-xl">5K </p>
                         <p>Active Users </p>
                     </div>
                 </div>

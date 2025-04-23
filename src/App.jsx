@@ -2,6 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import './App.css';
 import NavBar from './components/NavBar';
 import LandingPage from './route/LandingPage';
+import Mentors from "./route/Mentors";
+import Blogs from "./route/Blogs";
 import About from "./route/About";
 import Feedback from "./route/Feedback";
 import LogIn from "./components/LogIn";
@@ -10,17 +12,20 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <NavBar />
-      <Routes>
-        <Route path="/home" element={<LandingPage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/feedback" element={<Feedback />} />
-        <Route path="/login" element={<LogIn />} />
-      </Routes>
-      <Footer/>
-    </>
+      <main className="flex-grow px-4 py-8">
+        <Routes>
+          <Route path="/home" element={<LandingPage />} />
+          <Route path="/mentors" element={<Mentors />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/feedback" element={<Feedback />} />
+          <Route path="/login" element={<LogIn />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 }
-
 export default App;
