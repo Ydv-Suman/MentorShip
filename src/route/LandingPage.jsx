@@ -64,8 +64,8 @@ function LandingPage() {
       </div>
 
       <div className="absolute top-[75%] left-[10%]">
-      <div className="flex flex-row gap-5 mt-[10%] ml-[10%]">
-          <div className="flex flex-col text-center">
+      <div className="flex flex-row gap-5 mt-[10%] ml-[10%] ont-semibold text-l">
+          <div className="flex flex-col text-center ">
             <p className="font-semibold text-xl">100K </p>
             <p>Total Users </p>
           </div>

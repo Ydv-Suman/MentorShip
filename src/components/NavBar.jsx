@@ -18,12 +18,10 @@ function NavBar(){
                 </nav>
             </div>
             <div>
-                <nav className="absolute top-1.5 right-32 text-xl">
+                <nav className="absolute top-1.5 right-10 text-xl">
                     <p className="cursor-pointer text-white hover:text-red-600 w-20 h-9 bg-blue-500 p-2 rounded-full flex items-center justify-center"><Link to="/login">Log In</Link></p>
                 </nav>
-                <nav className="absolute top-1.5 right-10 text-xl">
-                    <p className="cursor-pointer text-white hover:text-cyan-500 w-20 h-9 bg-blue-500 p-3 rounded-full flex items-center justify-center">Register</p>
-                </nav>
+                
             </div>
 
         </div>
