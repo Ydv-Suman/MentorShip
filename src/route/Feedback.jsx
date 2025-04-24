@@ -33,7 +33,7 @@ function Feedback(){
             Contact:
             <input
               name="contact"
-              type="tel"
+              type="number"
               placeholder="Enter phone number"
               className="w-full mt-1 p-2 border border-gray-300 rounded"
               maxLength="10"

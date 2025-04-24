@@ -39,7 +39,7 @@ function Appointment() {
         </p>
         <p>Contact
             <input
-            type="tel"
+            type="number"
             placeholder="Enter phone number"
             required
             className="w-full mt-1 p-2 border border-gray-300 rounded"
