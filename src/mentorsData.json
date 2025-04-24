@@ -4,140 +4,160 @@
       "name": "Alice Johnson",
       "image": "https://randomuser.me/api/portraits/women/1.jpg",
       "expertise": "Frontend Development",
-      "years_of_experience": 6
+      "years_of_experience": 6,
+      "rating": "★★★★★"
     },
     {
       "id": 2,
       "name": "David Kim",
       "image": "https://randomuser.me/api/portraits/men/2.jpg",
       "expertise": "Machine Learning",
-      "years_of_experience": 8
+      "years_of_experience": 8,
+      "rating": "★★★★☆"
     },
     {
       "id": 3,
       "name": "Sara Dey",
       "image": "https://randomuser.me/api/portraits/women/3.jpg",
       "expertise": "UI/UX Design",
-      "years_of_experience": 5
+      "years_of_experience": 5,
+      "rating": "★★★★★"
     },
     {
       "id": 4,
       "name": "Michael Smith",
       "image": "https://randomuser.me/api/portraits/men/4.jpg",
       "expertise": "Backend Engineering",
-      "years_of_experience": 10
+      "years_of_experience": 10,
+      "rating": "★★★"
     },
     {
       "id": 5,
       "name": "Priya Ramesh",
       "image": "https://randomuser.me/api/portraits/women/5.jpg",
       "expertise": "Data Science",
-      "years_of_experience": 7
+      "years_of_experience": 7,
+      "rating": "★★★★★"
     },
     {
       "id": 6,
       "name": "James Carter",
       "image": "https://randomuser.me/api/portraits/men/6.jpg",
       "expertise": "DevOps",
-      "years_of_experience": 9
+      "years_of_experience": 9,
+      "rating": "★★★★★"
     },
     {
       "id": 7,
       "name": "Linda Nguyen",
       "image": "https://randomuser.me/api/portraits/women/7.jpg",
       "expertise": "Cloud Computing",
-      "years_of_experience": 6
+      "years_of_experience": 6,
+      "rating": "★★★"
     },
     {
       "id": 8,
       "name": "Robert Lee",
       "image": "https://randomuser.me/api/portraits/men/8.jpg",
       "expertise": "Cybersecurity",
-      "years_of_experience": 11
+      "years_of_experience": 11,
+      "rating": "★★★★"
     },
     {
       "id": 9,
       "name": "Nina Davis",
       "image": "https://randomuser.me/api/portraits/women/9.jpg",
       "expertise": "Mobile App Development",
-      "years_of_experience": 4
+      "years_of_experience": 4,
+      "rating": "★★★★"
     },
     {
       "id": 10,
       "name": "Omar Farooq",
       "image": "https://randomuser.me/api/portraits/men/10.jpg",
       "expertise": "AI Research",
-      "years_of_experience": 8
+      "years_of_experience": 8,
+      "rating": "★★★★★"
     },
     {
       "id": 11,
       "name": "Emily Chen",
       "image": "https://randomuser.me/api/portraits/women/11.jpg",
       "expertise": "Product Management",
-      "years_of_experience": 6
+      "years_of_experience": 6,
+      "rating": "★★★"
     },
     {
       "id": 12,
       "name": "Jason White",
       "image": "https://randomuser.me/api/portraits/men/12.jpg",
       "expertise": "Blockchain Development",
-      "years_of_experience": 5
+      "years_of_experience": 5,
+      "rating": "★★★★"
     },
     {
       "id": 13,
       "name": "Tanvi Desai",
       "image": "https://randomuser.me/api/portraits/women/13.jpg",
       "expertise": "QA Testing",
-      "years_of_experience": 7
+      "years_of_experience": 7,
+      "rating": "★★★★"
     },
     {
       "id": 14,
       "name": "William Brown",
       "image": "https://randomuser.me/api/portraits/men/14.jpg",
       "expertise": "Network Engineering",
-      "years_of_experience": 10
+      "years_of_experience": 10,
+      "rating": "★★★"
     },
     {
       "id": 15,
       "name": "Fatima Zahra",
       "image": "https://randomuser.me/api/portraits/women/15.jpg",
       "expertise": "Technical Writing",
-      "years_of_experience": 6
+      "years_of_experience": 6,
+      "rating": "★★★"
     },
     {
       "id": 16,
       "name": "Daniel Rodriguez",
       "image": "https://randomuser.me/api/portraits/men/16.jpg",
       "expertise": "Full Stack Development",
-      "years_of_experience": 9
+      "years_of_experience": 9,
+      "rating": "★★★★"
     },
     {
       "id": 17,
       "name": "Chloe Park",
       "image": "https://randomuser.me/api/portraits/women/17.jpg",
       "expertise": "Game Development",
-      "years_of_experience": 5
+      "years_of_experience": 5,
+      "rating": "★★★"
     },
     {
       "id": 18,
       "name": "Isaac Green",
       "image": "https://randomuser.me/api/portraits/men/18.jpg",
       "expertise": "Database Administration",
-      "years_of_experience": 12
+      "years_of_experience": 12,
+      "rating": "★★★★"
     },
     {
       "id": 19,
       "name": "Ananya Mehta",
       "image": "https://randomuser.me/api/portraits/women/19.jpg",
       "expertise": "Augmented Reality",
-      "years_of_experience": 3
+      "years_of_experience": 3,
+      "rating": "★★★★"
     },
     {
       "id": 20,
       "name": "Noah Evans",
       "image": "https://randomuser.me/api/portraits/men/20.jpg",
       "expertise": "Robotics",
-      "years_of_experience": 7
+      "years_of_experience": 7,
+      "rating": "★★★"
     }
   ]
   

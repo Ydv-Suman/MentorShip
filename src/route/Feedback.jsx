@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Feedback(){
     return(
-        <div className="absolute top-[18%] left-[50%] transform -translate-x-1/2 p-2 bg-blue-400">
+        <div className="absolute top-[8%] left-[50%] transform -translate-x-1/2 p-2 bg-blue-400">
         <div className="bg-white border border-gray-400 rounded-xl p-6 shadow-lg text-black w-[400px]">
           <p className="text-blue-600 font-bold text-3xl text-center mb-4">FeedBack</p>
 
@@ -41,6 +41,16 @@ function Feedback(){
             />
           </p>
 
+          <p className="mb-4">
+            Enter mentor name:
+            <input
+              name="name"
+              type="text"
+              placeholder="Enter mentor name"
+              className="w-full mt-1 p-2 border border-gray-300 rounded"
+              required
+            />
+            </p>
           <p className="mb-4">
             Message:
             <textarea
