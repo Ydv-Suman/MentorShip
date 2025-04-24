@@ -46,7 +46,7 @@ function Feedback(){
             <textarea
               name="message"
               placeholder="Enter your message"
-              maxLength={100}
+              maxLength={1000}
               rows={4}
               cols={38}
               className="w-full mt-1 p-2 border border-gray-300 rounded resize-none"

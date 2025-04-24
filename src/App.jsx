@@ -6,6 +6,7 @@ import Mentors from "./route/Mentors";
 import Blogs from "./route/Blogs";
 import About from "./route/About";
 import Feedback from "./route/Feedback";
+import Appointment from "./route/Appointment";
 import LogIn from "./components/LogIn";
 
 import Footer from "./components/Footer";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
           <Route path="/feedback" element={<Feedback />} />
+          <Route path="/appointment" element={<Appointment />} />
           <Route path="/login" element={<LogIn />} />
         </Routes>
       </main>
