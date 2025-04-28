@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Feedback(){
     return(
-        <div className="absolute top-[8%] left-[50%] transform -translate-x-1/2 p-2 bg-blue-400">
-        <div className="bg-white border border-gray-400 rounded-xl p-6 shadow-lg text-black w-[400px]">
+        <div className="ml-[38%] w-[3500px]">
+        <div className="bg-white border border-gray-400 rounded-xl p-5 shadow-lg text-black w-[400px]">
           <p className="text-blue-600 font-bold text-3xl text-center mb-4">FeedBack</p>
 
           <p className="mb-4">
@@ -51,6 +51,16 @@ function Feedback(){
               required
             />
             </p>
+            <p className="mb-4">
+            Rating:
+            <input
+              name="rating"
+              type="number"
+              placeholder="1 to 5"
+              className="w-full mt-1 p-2 border border-gray-300 rounded"
+              required
+            />
+          </p>
           <p className="mb-4">
             Message:
             <textarea

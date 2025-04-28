@@ -11,8 +11,9 @@ function Appointment() {
   };
 
   return (
-    <div className="absolute top-[18%] left-[50%] rounded-2xl transform -translate-x-1/2 p-2 bg-gray-400">
-      <div className="bg-white border border-gray-400 rounded-xl p-6 shadow-lg">
+    <div className="ml-[38%] w-[400px]">
+      <div className="bg-white border border-gray-400 rounded-xl p-6 shadow-lg  w-[450px]">
+        <p>
         <label htmlFor="mentor" className="block mb-2 font-medium">
           Select Mentor:
         </label>
@@ -29,6 +30,7 @@ function Appointment() {
             </option>
           ))}
         </select>
+        </p>
         <p>Your fullname
             <input
             type="text"
