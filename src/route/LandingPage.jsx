@@ -19,7 +19,7 @@ function LandingPage() {
 
   return (
     <div>
-      <div className="absolute top-[20%] left-[10%]">
+      <div className="mt-[5%] ml-[10%]">
         <p className="font-semibold text-4xl font-serif">
           Find a mentor who guide <br />you on your career growth
         </p>
@@ -33,7 +33,7 @@ function LandingPage() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search by name or expertise"
-            className="p-3 rounded-2xl w-[70%] bg-blue-300 mt-[5%] mr-2"
+            className="p-3 rounded-2xl w-[30%] bg-blue-300 mt-[5%] mr-2"
           />
           <button
             onClick={handleSearch}
@@ -63,7 +63,7 @@ function LandingPage() {
         )}
       </div>
 
-      <div className="absolute top-[75%] left-[10%]">
+      <div className="mt-[9%] ml-[6%]">
       <div className="flex flex-row gap-5 mt-[10%] ml-[10%] ont-semibold text-l">
           <div className="flex flex-col text-center ">
             <p className="font-semibold text-xl">100K </p>
