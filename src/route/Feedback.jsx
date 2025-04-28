@@ -7,61 +7,61 @@ function Feedback(){
         <div className="bg-white border border-gray-400 rounded-xl p-5 shadow-lg text-black w-[400px]">
           <p className="text-blue-600 font-bold text-3xl text-center mb-4">FeedBack</p>
 
-          <p className="mb-4">
+          <p className="mb-3">
             Full Name:
             <input
               name="name"
               type="text"
               placeholder="Enter your fullname"
-              className="w-full mt-1 p-2 border border-gray-300 rounded"
+              className="w-fullp-2 border border-gray-300 rounded"
               required
             />
           </p>
 
-          <p className="mb-4">
+          <p className="mb-3">
             Email:
             <input
               name="email"
               type="email"
               placeholder="Enter email address"
-              className="w-full mt-1 p-2 border border-gray-300 rounded"
+              className="w-full p-2 border border-gray-300 rounded"
               required
             />
           </p>
 
-          <p className="mb-4">
+          <p className="mb-3">
             Contact:
             <input
               name="contact"
               type="number"
               placeholder="Enter phone number"
-              className="w-full mt-1 p-2 border border-gray-300 rounded"
+              className="w-fullp-2 border border-gray-300 rounded"
               maxLength="10"
               required
             />
           </p>
 
-          <p className="mb-4">
+          <p className="mb-3">
             Enter mentor name:
             <input
               name="name"
               type="text"
               placeholder="Enter mentor name"
-              className="w-full mt-1 p-2 border border-gray-300 rounded"
+              className="w-fullp-2 border border-gray-300 rounded"
               required
             />
             </p>
-            <p className="mb-4">
+            <p className="mb-3">
             Rating:
             <input
               name="rating"
               type="number"
               placeholder="1 to 5"
-              className="w-full mt-1 p-2 border border-gray-300 rounded"
+              className="w-full p-2 border border-gray-300 rounded"
               required
             />
           </p>
-          <p className="mb-4">
+          <p className="mb-3">
             Message:
             <textarea
               name="message"
@@ -69,7 +69,7 @@ function Feedback(){
               maxLength={1000}
               rows={4}
               cols={38}
-              className="w-full mt-1 p-2 border border-gray-300 rounded resize-none"
+              className="w-full p-2 border border-gray-300 rounded resize-none"
               required
             ></textarea>
           </p>
