@@ -1,17 +1,59 @@
 import NavBar from "../components/NavBar";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
-function Feedback(){
-    return(
-        <div className="ml-[38%]">
+function Feedback() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [contact, setContact] = useState("");
+  const [mentor, setMentor] = useState("");
+  const [rating, setRating] = useState("");
+  const [message, setMessage] = useState("");
+
+  
+
+  const handleSubmit = async (e) => {
+    const formData = {
+      name,
+      email,
+      contact,
+      mentor,
+      rating,
+      message,
+    };
+
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbxQkpmJ4-haJYqqRdXZ09mvhT0JwQMgK_fH-WTP42EV1wsgemwwR-7EF4FgqdJ6thtQ/exec",
+        {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+      alert("Form submitted successfully!");
+    } catch (error) {
+      console.error("Error submitting form", error);
+      alert("Submission failed");
+    }
+  };
+
+  return (
+    <div className="ml-[38%]">
+      <form onSubmit={handleSubmit}>
         <div className="bg-white border border-gray-400 rounded-xl p-5 shadow-lg text-black w-[400px]">
-          <p className="text-blue-600 font-bold text-3xl text-center mb-1">FeedBack</p>
+          <p className="text-blue-600 font-bold text-3xl text-center mb-1">Feedback</p>
 
           <p className="mb-2">
             Full Name:
             <input
               name="name"
               type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               placeholder="Enter your fullname"
               className="w-[90%] p-2 border border-gray-300 rounded"
               required
@@ -23,6 +65,8 @@ function Feedback(){
             <input
               name="email"
               type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter email address"
               className="w-[90%] p-2 border border-gray-300 rounded"
               required
@@ -34,44 +78,53 @@ function Feedback(){
             <input
               name="contact"
               type="number"
+              value={contact}
+              onChange={(e) => setContact(e.target.value)}
               placeholder="Enter phone number"
               className="w-[90%] p-2 border border-gray-300 rounded"
-              maxLength="10"
               required
             />
           </p>
 
           <p className="mb-2">
-            Enter mentor name:
+            Mentor Name:
             <input
-              name="name"
+              name="mentor"
               type="text"
+              value={mentor}
+              onChange={(e) => setMentor(e.target.value)}
               placeholder="Enter mentor name"
               className="w-[90%] p-2 border border-gray-300 rounded"
               required
             />
-            </p>
-            <p className="mb-2">
-            Rating:
+          </p>
+
+          <p className="mb-2">
+            Rating (1–5):
             <input
               name="rating"
               type="number"
+              min="1"
+              max="5"
+              value={rating}
+              onChange={(e) => setRating(e.target.value)}
               placeholder="1 to 5"
               className="w-[90%] p-2 border border-gray-300 rounded"
               required
             />
           </p>
+
           <p className="mb-2">
             Message:
             <textarea
               name="message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               placeholder="Enter your message"
-              maxLength={1000}
               rows={4}
-              cols={38}
               className="w-[90%] p-2 border border-gray-300 rounded resize-none"
               required
-            ></textarea>
+            />
           </p>
 
           <div className="text-center">
@@ -83,7 +136,9 @@ function Feedback(){
             </button>
           </div>
         </div>
-      </div>
-    )
+      </form>
+    </div>
+  );
 }
+
 export default Feedback;
