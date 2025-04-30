@@ -13,8 +13,6 @@ function Appointment() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-
     const formData = {
       mentor: selectedMentor,
       name,
@@ -113,7 +111,7 @@ function Appointment() {
             type="submit"
             className="cursor-pointer p-2 bg-amber-500 w-45 h-9 text-white rounded-full flex items-center justify-center mx-auto"
           >
-            Confirm Registration
+            Confirm Appointment
           </button>
         </div>
       </form>
