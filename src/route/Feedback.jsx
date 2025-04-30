@@ -13,6 +13,7 @@ function Feedback() {
   
 
   const handleSubmit = async (e) => {
+    e.preventDefault();
     const formData = {
       name,
       email,

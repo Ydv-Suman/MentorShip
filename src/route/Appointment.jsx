@@ -13,6 +13,8 @@ function Appointment() {
   };
 
   const handleSubmit = async (e) => {
+    e.preventDefault();
+
     const formData = {
       mentor: selectedMentor,
       name,
