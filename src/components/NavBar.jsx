@@ -8,8 +8,8 @@ function NavBar(){
                 {/* Logo and Navigation Links */}
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-10">
                     <Link to="/home">
-                        <h1 className="font-bold text-5xl text-center sm:text-left">
-                            Mentor<span className="text-blue-500">Ship</span>
+                        <h1 className="font-bold text-5xl text-center sm:text-left"><Link to="/home">
+                            Mentor<span className="text-blue-500">Ship</span></Link>
                         </h1>
                     </Link>
                     

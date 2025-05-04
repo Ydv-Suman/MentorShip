@@ -19,7 +19,6 @@ function LandingPage() {
   return (
     <div className="max-w-screen-xl mx-auto px-4 py-10">
       <div className="flex flex-col-reverse lg:flex-row items-center gap-8">
-        {/* Left: Text + Search */}
         <div className="flex-1">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold font-serif mb-4">
             Find a mentor who guides <br className="hidden sm:block" /> you on your career growth
@@ -64,7 +63,6 @@ function LandingPage() {
           )}
         </div>
 
-        {/* Right: Image */}
         <div className="flex-1">
           <img
             src={image}
@@ -74,21 +72,21 @@ function LandingPage() {
         </div>
       </div>
 
-      {/* Stats Section */}
-      <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-        <div>
-          <p className="text-2xl font-semibold">100K</p>
-          <p>Total Users</p>
-        </div>
-        <div>
-          <p className="text-2xl font-semibold">1K</p>
-          <p>Mentors</p>
-        </div>
-        <div>
-          <p className="text-2xl font-semibold">5K</p>
-          <p>Active Users</p>
-        </div>
-      </div>
+      <div className="mt-8 flex flex-col sm:flex-row  items-center gap-y-4 sm:gap-y-0 sm:gap-x-10 text-center">
+  <div>
+    <p className="text-2xl font-semibold">100K</p>
+    <p>Total Users</p>
+  </div>
+  <div>
+    <p className="text-2xl font-semibold">1K</p>
+    <p>Mentors</p>
+  </div>
+  <div>
+    <p className="text-2xl font-semibold">5K</p>
+    <p>Active Users</p>
+  </div>
+</div>
+
     </div>
   );
 }
