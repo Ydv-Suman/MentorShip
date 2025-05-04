@@ -33,10 +33,10 @@ function Feedback() {
   return (
     <div className="max-w-md w-full mx-auto p-4">
       <form onSubmit={handleSubmit} className="bg-white border border-gray-300 rounded-xl p-6 shadow-md text-black">
-        <p className="text-blue-600 font-bold text-3xl text-center mb-6">Feedback</p>
+        <p className="text-blue-600 font-bold text-3xl text-center">Feedback</p>
 
-        <div className="mb-4">
-          <label className="block mb-1 font-medium">Full Name:</label>
+        <div className="mb-1">
+          <label className="block font-medium">Full Name:</label>
           <input
             name="name"
             type="text"
@@ -48,8 +48,8 @@ function Feedback() {
           />
         </div>
 
-        <div className="mb-4">
-          <label className="block mb-1 font-medium">Email:</label>
+        <div className="mb-1">
+          <label className="block font-medium">Email:</label>
           <input
             name="email"
             type="email"
@@ -61,8 +61,8 @@ function Feedback() {
           />
         </div>
 
-        <div className="mb-4">
-          <label className="block mb-1 font-medium">Contact:</label>
+        <div className="mb-1">
+          <label className="block font-medium">Contact:</label>
           <input
             name="contact"
             type="number"
@@ -74,8 +74,8 @@ function Feedback() {
           />
         </div>
 
-        <div className="mb-4">
-          <label className="block mb-1 font-medium">Mentor Name:</label>
+        <div className="mb-1">
+          <label className="block font-medium">Mentor Name:</label>
           <input
             name="mentor"
             type="text"
@@ -87,8 +87,8 @@ function Feedback() {
           />
         </div>
 
-        <div className="mb-4">
-          <label className="block mb-1 font-medium">Rating (1–5):</label>
+        <div className="mb-1">
+          <label className="block font-medium">Rating (1–5):</label>
           <input
             name="rating"
             type="number"
@@ -102,14 +102,14 @@ function Feedback() {
           />
         </div>
 
-        <div className="mb-6">
-          <label className="block mb-1 font-medium">Message:</label>
+        <div className="mb-1">
+          <label className="block font-medium">Message:</label>
           <textarea
             name="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Enter your message"
-            rows={4}
+            rows={3}
             className="w-full p-2 border border-gray-300 rounded resize-none"
             required
           />
