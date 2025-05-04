@@ -42,10 +42,10 @@ function Appointment() {
   };
 
   return (
-    <div className="ml-[38%] w-[400px]">
+    <div className="w-full max-w-lg mx-auto px-4">
       <form
         onSubmit={handleSubmit}
-        className="bg-white border border-gray-400 rounded-xl p-6 shadow-lg w-[450px]"
+        className="bg-white border border-gray-400 rounded-xl p-6 shadow-lg w-full"
       >
         <p>
           <label htmlFor="mentor" className="block mb-2 font-medium">
@@ -111,7 +111,7 @@ function Appointment() {
         <div className="text-center mt-6">
           <button
             type="submit"
-            className="cursor-pointer p-2 bg-amber-500 w-45 h-9 text-white rounded-full flex items-center justify-center mx-auto"
+            className="cursor-pointer px-6 py-2 bg-amber-500 text-white rounded-full"
           >
             Confirm Appointment
           </button>
