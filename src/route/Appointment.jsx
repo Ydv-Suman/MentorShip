@@ -5,6 +5,7 @@ import mentors from "../mentorsData.json";
 function Appointment() {
   const [selectedMentor, setSelectedMentor] = useState("");
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [contact, setContact] = useState("");
   const [concern, setConcern] = useState("");
 
@@ -18,13 +19,14 @@ function Appointment() {
     const formData = {
       mentor: selectedMentor,
       name,
+      email,
       contact,
       concern,
     };
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbzprjBGeCzeR7plnRIIrB01jhIu64Bu7pygBVx95uYddFbp_xF_VCj2nOkqUC_n2-5I2g/exec",
+        "https://script.google.com/macros/s/AKfycbzn9SWo1q34pgoXmawkw8VgOgrQdwF39lTPBIjZZAdy-0B24oVr4Lz-M5b_FegW0oAeZA/exec",
         {
           method: "POST",
           mode: "no-cors",
@@ -70,7 +72,7 @@ function Appointment() {
         </p>
 
         <p className="mt-4">
-          Your fullname
+          Full Name
           <input
             type="text"
             value={name}
@@ -78,6 +80,18 @@ function Appointment() {
             placeholder="Enter your fullname"
             required
             className="w-full mt-1 p-2 border border-gray-300 rounded"
+          />
+        </p>
+        <p className="mt-4">
+          <label className="block font-medium">Email:</label>
+          <input
+            name="email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Enter email address"
+            className="w-full p-2 border border-gray-300 rounded"
+            required
           />
         </p>
 

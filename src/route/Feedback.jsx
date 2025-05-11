@@ -3,7 +3,6 @@ import { useState } from "react";
 
 function Feedback() {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [contact, setContact] = useState("");
   const [mentor, setMentor] = useState("");
   const [rating, setRating] = useState("");
@@ -11,11 +10,11 @@ function Feedback() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const formData = { name, email, contact, mentor, rating, message };
+    const formData = { name, contact, mentor, rating, message };
 
     try {
       await fetch(
-        "https://script.google.com/macros/s/AKfycbxQkpmJ4-haJYqqRdXZ09mvhT0JwQMgK_fH-WTP42EV1wsgemwwR-7EF4FgqdJ6thtQ/exec",
+        "https://script.google.com/macros/s/AKfycbwI_uqi_HgReWNj2_kOHX3tX9ySuuLhMhnJsW7A-TAYo2x1JQ_wSgF0fD6B0foQ9pKB/exec",
         {
           method: "POST",
           mode: "no-cors",
@@ -48,18 +47,6 @@ function Feedback() {
           />
         </div>
 
-        <div className="mb-1">
-          <label className="block font-medium">Email:</label>
-          <input
-            name="email"
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter email address"
-            className="w-full p-2 border border-gray-300 rounded"
-            required
-          />
-        </div>
 
         <div className="mb-1">
           <label className="block font-medium">Contact:</label>
